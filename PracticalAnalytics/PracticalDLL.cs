@@ -39,7 +39,6 @@ namespace Practical.Analytics
 		[DllImport("PracticalDLL", CallingConvention = CallingConvention.StdCall)]
 		public static extern int RecordLoss(string uniqueIdentifier, string value);
 
-
 		public void SetAPIKey(string LoadedAPIKey)
 		{
 #if WINDOWS_UWP
